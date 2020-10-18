@@ -31,12 +31,12 @@ FOR THIS TO WORK DO NOT EDIT THE FOLLOWING LINE IN THE CONFIG FILE!
   
   # First:
   
-  > cd modules
+> cd modules
 > git clone https://github.com/raywo/MMM-NowPlayingOnSpotify.git
 > cd MMM-NowPlayingOnSpotify
 > npm install
   
- > cd authorization
+> cd authorization
 > node app
 
 When the app is running you can access it by opening localhost:8888 in your browser. Provided you are doing this directly on your Raspberry Pi. If you want to access the app remotely just type the ip address or the name of your Raspberry like so for instance: http://raspi:8888. 
